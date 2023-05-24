@@ -108,8 +108,6 @@ try:
 	st.dataframe(weights_df)
 	st.subheader("The number of stock you should buy")
 	st.dataframe(allocation)
-	#st.subheader("The remaining amount")
-	#st.dataframe(leftover)
 	st.plotly_chart(fig_cum_returns_optimized)
 	st.subheader("Optimized Max Sharpe Portfolio Performance")
 	st.image(fig_efficient_frontier)
